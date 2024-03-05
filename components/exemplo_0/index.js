@@ -1,9 +1,11 @@
 import { View, Text } from 'react-native';
 
+import styles from './styles';
+
 function Exemplo_0() {
     return(
-        <View>
-            <Text style={{color: '#fff'}}> Minha primeira tela :D </Text>
+        <View style={styles.container}>
+            <Text style={styles.texto}> Minha primeira tela :D </Text>
         </View>
     );
 }
