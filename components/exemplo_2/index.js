@@ -7,7 +7,9 @@ const Exemplo_2 = () => (
     <View style={styles.container}>
         <Text style={styles.title}>Exemplo 2 </Text>
 
-        <Mensagem />
+        <Mensagem nome="Kaua" sobrenome="Diogo" />
+        <Mensagem nome="Ednaldo" sobrenome="Pereira" />
+        <Mensagem nome="Vinicius" sobrenome="Gabriel" />
     </View>
 );
 
