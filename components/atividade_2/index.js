@@ -4,8 +4,8 @@ import Item from "./item";
 
 let lista = [
     [false, "Aprender C"],
-    [true,  "Aprender Javascript"],
     [false, "Aprender C#"],
+    [true,  "Aprender Javascript"],
     [true,  "Aprender GML"],
     [true,  "Aprender Haxeflixel"],
 ];
@@ -13,8 +13,8 @@ let lista = [
 const Atividade_2 = () => {
     let listaItems = [];
 
-    lista.forEach((season, index) => {
-        listaItems.push(<Item name={season[1]} finished={season[0]}/>);
+    lista.forEach((data, index) => {
+        listaItems.push(<Item name={data[1]} finished={data[0]}/>);
     });
 
     return(
@@ -22,7 +22,8 @@ const Atividade_2 = () => {
             <Text style={styles.titulo}> Lista de Tarefas </Text>
             
             {listaItems}
-            
+            <Item name={"Fazer Feijoada"} finished={false}/>
+
         </View>
     );
 }
