@@ -5,6 +5,9 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#D1C4E9',
         borderRadius: 20,
+        margin: '20px',
+        width: '100%',
+        alignItems: 'center',
     },
     titulo:{
         fontSize: 30,
@@ -12,17 +15,13 @@ const styles = StyleSheet.create({
         marginVertical: 20,
         color: '#673AB7',
     },
-    /*button:{
-        color:'black',
-        backgroundColor:'#069',
-        fontSize:30,
-        fontWeight:'bold',
-        margin: 'auto',
-        marginTop: 10,
-        padding:'10px',
-        border:'2px solid black',
-        borderRadius:'50px',
-    },*/
+    botao:{
+        borderWidth: 3,
+        borderRadius: 20,
+        padding: 10,
+        width: '80%',
+        alignItems: 'center',
+    }
 });
 
 export default styles;
