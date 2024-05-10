@@ -14,6 +14,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginVertical: 20,
         color: '#673AB7',
+        userSelect: 'none',
     },
     botao:{
         borderColor: '#673AB7',
@@ -29,7 +30,15 @@ const styles = StyleSheet.create({
     txtBotao: {
         fontSize: 25,
         color: '#673AB7',
-    }
+        userSelect: 'none',
+    },
+    txtNumero:{
+        fontSize: 35,
+        color: '#673AB7',
+        marginVertical: 10,
+        userSelect: 'none',
+        
+    },
 });
 
 export default styles;
